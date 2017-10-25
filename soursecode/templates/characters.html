@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+
+{% block body %}
+     <div class="container">
+
+      <div class="row row-offcanvas row-offcanvas-right">
+
+        <div class="col-xs-12 col-sm-9">
+          <p class="pull-right visible-xs">
+            <button type="button" class="btn btn-primary btn-xs" data-toggle="offcanvas">Toggle nav</button>
+          </p>
+          
+          <div class="row">
+            <div class="col-xs-6 col-lg-4">
+              <h2>Spider-man</h2>
+              <p>First appearance: Amazing Fantasy #15 (August 1962) </p>
+              <p>Alter ego: Peter Benjamin Parker</p>
+              <p>Movie: Captain America:Civil War; Spider-man...</p>
+              <p><a class="btn btn-default" href="/characters/Spiderman" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <h2>Iron man</h2>
+              <p>First appearance: Tales of Suspense #39 (March 1963)</p>
+              <p>Alter ego: Anthony Edward "Tony" Stark</p>
+              <p>Movie: Iron Man(1,2,3) The Avengers...</p>
+              <p><a class="btn btn-default" href="/characters/Iron man" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <h2>Doctor Strange</h2>
+              <p>First appearance: Strange Tales #110 (July 1963)</p>
+              <p>Alter ego: Stephen Vincent Strange</p>
+              <p>Movie: Doctor Strange... </p>
+              <p><a class="btn btn-default" href="/characters/Doctor Strange" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <h2>Captain America</h2>
+              <p>First appearance: Captain America Comics #1 (March 1941)</p>
+              <p>Alter ego: Steven "Steve" Rogers</p>
+              <p>Movie: Captain America(1,2,3) The Avengers...</p>
+              <p><a class="btn btn-default" href="/characters/Captain America" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <h2>Black Window</h2>
+              <p>First appearance: Tales of Suspense #52 (April 1964)</p>
+              <p>Alter ego: Natasha Romanova</p>
+              <p>Movie: The Avengers...</p>
+              <p><a class="btn btn-default" href="/characters/Black Window" role="button">View details &raquo;</a></p>
+            </div>
+            <div class="col-xs-6 col-lg-4">
+              <h2>Hulk</h2>
+              <p>First appearance: The Incredible Hulk #1 (May 1962)</p>
+              <p>Alter ego: Robert Bruce Banner</p>
+              <p>Movie: Hulk, The Avengers... </p>
+              <p><a class="btn btn-default" href="/characters/Hulk" role="button">View details &raquo;</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
+          <div class="list-group">
+            <a href="#" class="list-group-item active">Characters</a>
+            <a href="/characters/Spiderman" class="list-group-item">Spider-man</a>
+            <a href="/characters/Iron man" class="list-group-item">Iron man</a>
+            <a href="/characters/Doctor Strange" class="list-group-item">Doctor Strange</a>
+            <a href="/characters/Captain America" class="list-group-item">Captain America</a>
+            <a href="/characters/Black Window" class="list-group-item">Black Window</a>
+            <a href="/characters/Hulk" class="list-group-item">Hulk</a>
+          </div>
+        </div>
+      </div>
+
+      <hr>
+
+{% endblock %}
